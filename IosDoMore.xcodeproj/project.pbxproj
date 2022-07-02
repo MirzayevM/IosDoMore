@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		96ACEF6D28700435004DDE5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACEF6C28700435004DDE5D /* AppDelegate.swift */; };
 		96ACEF6F28700435004DDE5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACEF6E28700435004DDE5D /* SceneDelegate.swift */; };
-		96ACEF7128700435004DDE5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACEF7028700435004DDE5D /* ViewController.swift */; };
 		96ACEF7428700435004DDE5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96ACEF7228700435004DDE5D /* Main.storyboard */; };
 		96ACEF7728700435004DDE5D /* IosDoMore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96ACEF7528700435004DDE5D /* IosDoMore.xcdatamodeld */; };
 		96ACEF792870043C004DDE5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96ACEF782870043C004DDE5D /* Assets.xcassets */; };
 		96ACEF7C2870043C004DDE5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96ACEF7A2870043C004DDE5D /* LaunchScreen.storyboard */; };
+		96ACEF862870066D004DDE5D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACEF842870066D004DDE5D /* HomeViewController.swift */; };
+		96ACEF872870066D004DDE5D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96ACEF852870066D004DDE5D /* HomeViewController.xib */; };
+		96ACEF8B28700908004DDE5D /* scrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACEF8928700908004DDE5D /* scrollViewController.swift */; };
+		96ACEF8C28700908004DDE5D /* scrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96ACEF8A28700908004DDE5D /* scrollViewController.xib */; };
+		96ACEF8F28700C64004DDE5D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACEF8E28700C64004DDE5D /* Item.swift */; };
+		96ACEF9328700CFE004DDE5D /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACEF9128700CFE004DDE5D /* ItemCollectionViewCell.swift */; };
+		96ACEF9428700CFE004DDE5D /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96ACEF9228700CFE004DDE5D /* ItemCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		96ACEF6928700435004DDE5D /* IosDoMore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosDoMore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96ACEF6C28700435004DDE5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96ACEF6E28700435004DDE5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		96ACEF7028700435004DDE5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		96ACEF7328700435004DDE5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96ACEF7628700435004DDE5D /* IosDoMore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IosDoMore.xcdatamodel; sourceTree = "<group>"; };
 		96ACEF782870043C004DDE5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96ACEF7B2870043C004DDE5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96ACEF7D2870043C004DDE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96ACEF842870066D004DDE5D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		96ACEF852870066D004DDE5D /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		96ACEF8928700908004DDE5D /* scrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollViewController.swift; sourceTree = "<group>"; };
+		96ACEF8A28700908004DDE5D /* scrollViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = scrollViewController.xib; sourceTree = "<group>"; };
+		96ACEF8E28700C64004DDE5D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		96ACEF9128700CFE004DDE5D /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		96ACEF9228700CFE004DDE5D /* ItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +70,54 @@
 		96ACEF6B28700435004DDE5D /* IosDoMore */ = {
 			isa = PBXGroup;
 			children = (
+				96ACEF9028700CE1004DDE5D /* cells */,
+				96ACEF8D28700C55004DDE5D /* model */,
+				96ACEF88287008CE004DDE5D /* scrollView */,
+				96ACEF8328700629004DDE5D /* Controller */,
 				96ACEF6C28700435004DDE5D /* AppDelegate.swift */,
 				96ACEF6E28700435004DDE5D /* SceneDelegate.swift */,
-				96ACEF7028700435004DDE5D /* ViewController.swift */,
-				96ACEF7228700435004DDE5D /* Main.storyboard */,
-				96ACEF782870043C004DDE5D /* Assets.xcassets */,
-				96ACEF7A2870043C004DDE5D /* LaunchScreen.storyboard */,
 				96ACEF7D2870043C004DDE5D /* Info.plist */,
 				96ACEF7528700435004DDE5D /* IosDoMore.xcdatamodeld */,
+				96ACEF842870066D004DDE5D /* HomeViewController.swift */,
+				96ACEF852870066D004DDE5D /* HomeViewController.xib */,
 			);
 			path = IosDoMore;
+			sourceTree = "<group>";
+		};
+		96ACEF8328700629004DDE5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				96ACEF7228700435004DDE5D /* Main.storyboard */,
+				96ACEF7A2870043C004DDE5D /* LaunchScreen.storyboard */,
+				96ACEF782870043C004DDE5D /* Assets.xcassets */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		96ACEF88287008CE004DDE5D /* scrollView */ = {
+			isa = PBXGroup;
+			children = (
+				96ACEF8928700908004DDE5D /* scrollViewController.swift */,
+				96ACEF8A28700908004DDE5D /* scrollViewController.xib */,
+			);
+			path = scrollView;
+			sourceTree = "<group>";
+		};
+		96ACEF8D28700C55004DDE5D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				96ACEF8E28700C64004DDE5D /* Item.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		96ACEF9028700CE1004DDE5D /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				96ACEF9128700CFE004DDE5D /* ItemCollectionViewCell.swift */,
+				96ACEF9228700CFE004DDE5D /* ItemCollectionViewCell.xib */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +178,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96ACEF8C28700908004DDE5D /* scrollViewController.xib in Resources */,
 				96ACEF7C2870043C004DDE5D /* LaunchScreen.storyboard in Resources */,
 				96ACEF792870043C004DDE5D /* Assets.xcassets in Resources */,
+				96ACEF9428700CFE004DDE5D /* ItemCollectionViewCell.xib in Resources */,
 				96ACEF7428700435004DDE5D /* Main.storyboard in Resources */,
+				96ACEF872870066D004DDE5D /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +194,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96ACEF7128700435004DDE5D /* ViewController.swift in Sources */,
 				96ACEF6D28700435004DDE5D /* AppDelegate.swift in Sources */,
 				96ACEF6F28700435004DDE5D /* SceneDelegate.swift in Sources */,
+				96ACEF8B28700908004DDE5D /* scrollViewController.swift in Sources */,
 				96ACEF7728700435004DDE5D /* IosDoMore.xcdatamodeld in Sources */,
+				96ACEF8F28700C64004DDE5D /* Item.swift in Sources */,
+				96ACEF862870066D004DDE5D /* HomeViewController.swift in Sources */,
+				96ACEF9328700CFE004DDE5D /* ItemCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
